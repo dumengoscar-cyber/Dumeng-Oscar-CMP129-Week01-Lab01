@@ -7,13 +7,15 @@ import java.util.Scanner;
 public class BoxOffice {
 public static void main(String[] args)
 {  
-  new Scanner(System.in);
+   Scanner Scr = new Scanner(System.in);
 System.out.println("enter movie title");
-int adultTickets;
-int childTickets;
+String movieTitle = Scr.nextLine();
+
 System.out.println("enter sold amount of adult tickets");
-stringmovieTickets;
+int adultTickets = Scr.nextInt();
+
 System.out.println("enter amount of child tickets");
+int childTickets = Scr.nextInt();
 }
 }
 
