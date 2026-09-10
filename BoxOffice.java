@@ -20,12 +20,12 @@ int childTickets = Scr.nextInt();
 double gross = (adultTickets * 10) + (childTickets * 6);
 double net = gross * .20;
 double distributor = gross * .80;
-System.out.println(movieTitle);
-System.out.println(adultTickets);
-System.out.println(childTickets);
-System.out.println(gross);
-System.out.println(net);
-System.out.println(distributor);
+System.out.println("movie title: "+movieTitle);
+System.out.println("adult tickets sold "+adultTickets);
+System.out.println("child tickets sold "+childTickets);
+System.out.println("gross profit $"+gross);
+System.out.println("net profit $"+net);
+System.out.println("distributors profit $"+distributor);
 }
 }
 
