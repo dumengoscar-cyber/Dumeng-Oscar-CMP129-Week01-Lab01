@@ -25,7 +25,7 @@ System.out.println("adult tickets sold "+adultTickets);
 System.out.println("child tickets sold "+childTickets);
 System.out.println("gross profit $"+gross);
 System.out.println("net profit $"+net);
-System.out.println("distributors profit $"+distributor);
+System.out.println("distributors profit"+distributor);
 }
 }
 
